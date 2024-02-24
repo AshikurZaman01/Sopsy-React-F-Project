@@ -23,7 +23,7 @@ const Header = () => {
                             </div>
                         </div>
 
-                        <div>
+                        <div className="flex justify-between items-center gap-2">
                             <button className="bg-gradient-to-r from-primary  duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3 group " onClick={() => alert('Order not available yet')}>
                                 <span className="group-hover:block hidden transition-all  duration-300">Order</span>
                                 <FaCartPlus className="text-xl text-white drop-shadow-sm cursor-pointer" />
