@@ -1,8 +1,11 @@
+import Hero from "../Hero/Hero";
+
 
 const Home = () => {
+
     return (
-        <div>
-            this is home
+        <div className="container">
+            <Hero></Hero>
         </div>
     );
 };
