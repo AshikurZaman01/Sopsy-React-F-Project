@@ -6,9 +6,9 @@ const Product = ({ product }) => {
 
     const { img, title, rating, color, aosDelay } = product || {};
     return (
-        <div className="w-[150px] ">
-            <div className="h-[200px]">
-                <img className="w-full h-full bg-contain rounded" src={img} alt="" />
+        <div className="w-[150px] mx-auto">
+            <div className="h-[220px]">
+                <img className="w-full h-full object-cover rounded" src={img} alt="" />
             </div>
             <div>
                 <h3 className="text-xl font-semibold ">{title}</h3>

@@ -61,6 +61,10 @@ const Products = () => {
                     ProductsData.map(product => <Product key={product.id} product={product}></Product>)
                 }
             </div>
+
+            <div className="flex justify-center mt-5">
+                <button className="btn btn-sm bg-primary text-white">View All Prodcuts</button>
+            </div>
         </div>
     );
 };
