@@ -15,6 +15,7 @@ const TopProdcuts = () => {
             title: "Casual Wear",
             description:
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            aosDelay: "0",
         },
         {
             id: 2,
@@ -22,6 +23,7 @@ const TopProdcuts = () => {
             title: "Printed shirt",
             description:
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            aosDelay: "200",
         },
         {
             id: 3,
@@ -29,6 +31,7 @@ const TopProdcuts = () => {
             title: "Women shirt",
             description:
                 "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            aosDelay: "400",
         },
     ];
 
@@ -54,10 +57,13 @@ const TopProdcuts = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 place-items-center">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 place-items-center cursor-pointer">
                     {
                         ProductsData.map((item, index) => (
-                            <div key={item.id}>
+                            <div key={item.id}
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                                data-aos-delay={item.aosDelay}>
                                 <TopProdcut item={item}></TopProdcut>
                             </div>
                         ))
