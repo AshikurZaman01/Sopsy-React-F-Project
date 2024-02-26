@@ -5,7 +5,7 @@ import Img3 from "../../../assets/women/women3.jpg";
 import Img4 from "../../../assets/women/women4.jpg";
 import Product from "./Product";
 import AOS from "aos";
-import "aos/dist/aos.css"; 
+import "aos/dist/aos.css";
 
 const Products = () => {
     const ProductsData = [
@@ -62,7 +62,7 @@ const Products = () => {
 
     return (
         <div className="my-10">
-            <div className="text-center">
+            <div data-aos="fade-up" className="text-center">
                 <p className="text-primary mb-1">Top Selling Products for you</p>
                 <h1 className="text-3xl font-bold">Products</h1>
                 <p className="text-second text-sm mt-1 mb-5">
