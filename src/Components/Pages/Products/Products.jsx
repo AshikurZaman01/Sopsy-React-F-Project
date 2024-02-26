@@ -5,7 +5,7 @@ import Img3 from "../../../assets/women/women3.jpg";
 import Img4 from "../../../assets/women/women4.jpg";
 import Product from "./Product";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import the CSS file for AOS
+import "aos/dist/aos.css"; 
 
 const Products = () => {
     const ProductsData = [
