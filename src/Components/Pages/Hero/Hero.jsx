@@ -1,6 +1,7 @@
 import image1 from "../../../assets/hero/sale.png";
 import image2 from "../../../assets/hero/shopping.png";
 import image3 from "../../../assets/hero/women.png";
+import Slider from "react-slick";
 
 const Hero = () => {
 
@@ -34,8 +35,11 @@ const Hero = () => {
 
 
             <div className="pb-8 sm:pb-0">
+
+
+
                 <div className="grid grid-cols-1  sm:grid-cols-2 px-3">
-                    <div className="flex  flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2  sm:order-1 relative  z-10">
+                    <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2  sm:order-1 relative  z-10">
                         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">Lorem ipsum dolor.</h1>
                         <p className="text-sm my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quisquam neque praesentium. Expedita molestias dolore possimus nihil aperiam quos perferendis.</p>
 
