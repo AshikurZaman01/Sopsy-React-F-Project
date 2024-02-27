@@ -23,7 +23,7 @@ const Subscribe = () => {
                         <h1
                             className="text-2xl !text-center sm:text-left sm:text-4xl font-semibold">Get Notified About New Products</h1>
                         <input
-                            className="w-full p-3 text-black font-semibold"
+                            className="w-full p-3 text-black font-semibold rounded"
                             type="text" name="" id="" placeholder="Enter Your Email" />
                     </div>
                 </div>
