@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import Footer from "../Footer/Footer";
 import Hero from "../Hero/Hero";
 
 import Products from "../Products/Products";
@@ -20,6 +21,7 @@ const Home = () => {
             <Subscribe></Subscribe>
             <Products></Products>
             <Testimonial></Testimonial>
+            <Footer></Footer>
         </div>
     );
 };
