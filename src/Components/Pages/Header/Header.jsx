@@ -13,7 +13,7 @@ const Header = () => {
                         <div>
                             <Link to={"/"} className="font-bold text-2xl sm:text-3xl flex gap-2">
                                 <img className="w-10 uppercase" src={logo} alt="Logo" />
-                                Sopsy
+                                Shopsy
                             </Link>
                         </div>
                         <div className="flex justify-between items-center gap-4">
